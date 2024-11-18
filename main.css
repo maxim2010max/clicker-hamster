@@ -1,0 +1,103 @@
+ body {
+    background: linear-gradient(rgb(0, 247, 255), rgb(12, 98, 138));
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    height: 100vh;
+ }
+
+ button.btn {
+    width: 190px;
+    height: 50px;
+    background: red;
+    border-radius: 15px;
+    color: white;
+    font-size: 20px;
+    text-transform: uppercase;
+    border: 5px solid rgb(49, 49, 49);
+    cursor: pointer;
+
+
+ }
+
+ button.btn:hover {
+    background: white;
+    color: red;
+    border-color: red;
+    transition: 1000ms;
+ }
+
+ div.res {
+    text-align: center;
+    font-size: 40px;
+
+ }
+
+ div.res:before {
+    content: " click - ";
+ }
+
+ div.block {
+    position: absolute;
+    z-index: -1;
+    top: 0;
+    left: 0;
+    height: 100%;
+    width: 100%;
+
+ }
+
+ div.dots {
+    width: 250px;
+    height: 250px;
+    border-radius: 50%;
+    position: absolute;
+
+ }
+
+ div.dot1 {
+
+    background: #7c16c0;
+    opacity: 30%;
+    top: calc(50% - 125px);
+    left: calc(50% - 125px);
+
+ }
+
+ div.dot2 {
+    background: #d60d0d;
+    opacity: 70%;
+    top: calc(30% - 65px);
+    left: calc(90% - 65px);
+    transition: 500ms;
+
+ }
+
+ div.dot3 {
+    width: 100px;
+    height: 100px;
+    background: #9dff00;
+    opacity: 30%;
+    top: calc(40% - 195px);
+    left: calc(60% - 195px);
+
+ }
+
+ div.dot4 {
+    height: 300px;
+    width: 300px;
+    background: #ffbb00;
+    opacity: 30%;
+    top: calc(50% - 200px);
+    left: calc(20% - 200px);
+
+ }
+
+ div.dot5 {
+    background: #097909;
+    opacity: 20%;
+    top: calc(75% - 20px);
+    left: calc(20% - 20px);
+
+ }
